@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Privacy Policy of Acorn Recipe Diary – how we collect, use, and protect your personal data in our grey & yellow kitchen studio. Transparency and warmth in every crumb.">
+  <title>Privacy Policy | Acorn Recipe Diary</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #1e1e1e;
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      color: #2c2c2c;
+      line-height: 1.5;
+    }
+
+    .app-wrapper {
+      max-width: 1400px;
+      margin: 0 auto;
+      background: #f5f5f5;
+      box-shadow: 0 0 40px rgba(0,0,0,0.05);
+    }
+
+    /* header & navigation (grey/yellow theme) */
+    .site-header {
+      background: #2b2b2b;
+      padding: 1.2rem 2rem;
+      border-bottom: 3px solid #f5c542;
+    }
+
+    .logo-area h1 {
+      font-size: 2.2rem;
+      letter-spacing: -0.5px;
+      color: #f5c542;
+      font-weight: 700;
+    }
+
+    .logo-area p {
+      color: #d4d4d4;
+      font-size: 0.9rem;
+      margin-top: 0.25rem;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+
+    .nav-links li {
+      display: inline-block;
+    }
+
+    .nav-links a {
+      color: #e0e0e0;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.2s;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 0.2rem;
+      font-size: 1rem;
+    }
+
+    .nav-links a:hover, .nav-links a.active {
+      color: #f5c542;
+      border-bottom-color: #f5c542;
+    }
+
+    /* main content */
+    .main-content {
+      padding: 2rem 2rem 3rem;
+    }
+
+    /* privacy hero section */
+    .privacy-hero {
+      background: linear-gradient(135deg, #e9e5d8 0%, #fef7e8 100%);
+      border-radius: 36px;
+      padding: 2rem 2.2rem;
+      margin-bottom: 2.5rem;
+      border-left: 8px solid #f5c542;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.03);
+    }
+
+    .privacy-hero h2 {
+      font-size: 2.2rem;
+      color: #2b2b2b;
+      display: inline-block;
+      border-bottom: 3px solid #f5c542;
+      margin-bottom: 1rem;
+      letter-spacing: -0.3px;
+    }
+
+    .privacy-hero p {
+      font-size: 1.05rem;
+      color: #3c3c3c;
+      max-width: 85%;
+    }
+
+    /* policy content styling */
+    .policy-container {
+      background: white;
+      border-radius: 32px;
+      padding: 2rem 2rem 2.5rem;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.05);
+      border: 1px solid #efefef;
+      margin-bottom: 2rem;
+    }
+
+    .policy-section {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #f0ebdf;
+      padding-bottom: 1.5rem;
+    }
+
+    .policy-section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .policy-section h3 {
+      font-size: 1.6rem;
+      color: #2b2b2b;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .policy-section h3 span {
+      background: #f5c542;
+      width: 6px;
+      height: 28px;
+      display: inline-block;
+      border-radius: 4px;
+    }
+
+    .policy-section h4 {
+      font-size: 1.2rem;
+      color: #b07d1f;
+      margin: 1rem 0 0.5rem;
+      font-weight: 600;
+    }
+
+    .policy-section p, .policy-section li {
+      color: #3a3a3a;
+      margin-bottom: 0.75rem;
+      line-height: 1.6;
+    }
+
+    .policy-section ul, .policy-section ol {
+      margin-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .policy-section li {
+      margin-bottom: 0.4rem;
+    }
+
+    .highlight-box {
+      background: #fefaf0;
+      border-left: 4px solid #f5c542;
+      padding: 1rem 1.5rem;
+      border-radius: 20px;
+      margin: 1.2rem 0;
+      font-size: 0.95rem;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      background: #fcfaf5;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .data-table th, .data-table td {
+      border: 1px solid #e6decb;
+      padding: 0.75rem 1rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .data-table th {
+      background: #f5e9cf;
+      color: #2b2b2b;
+      font-weight: 700;
+    }
+
+    .badge {
+      background: #f5c54220;
+      color: #8b691b;
+      padding: 0.2rem 0.6rem;
+      border-radius: 40px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      display: inline-block;
+      margin-left: 0.5rem;
+    }
+
+    .signature {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      text-align: right;
+      font-style: italic;
+      border-top: 2px dashed #f5c542;
+    }
+
+    @media (max-width: 780px) {
+      .privacy-hero p {
+        max-width: 100%;
+      }
+      .main-content {
+        padding: 1rem;
+      }
+      .policy-container {
+        padding: 1.25rem;
+      }
+      .policy-section h3 {
+        font-size: 1.4rem;
+      }
+      .data-table th, .data-table td {
+        padding: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="app-wrapper">
+  <header class="site-header">
+    <div class="logo-area">
+      <h1>🍂 Acorn Recipe Diary</h1>
+      <p>grey + yellow muse · harvest of flavors & handwritten stories</p>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#" data-page="index">Home</a></li>
+      <li><a href="#" data-page="about">About</a></li>
+      <li><a href="#" data-page="contact">Contact</a></li>
+      <li><a href="#" data-page="terms">Terms Of Privacy</a></li>
+      <li><a href="#" data-page="privacy" class="active">Privacy Policy</a></li>
+      <li><a href="#" data-page="cookies">Cookies Policy</a></li>
+    </ul>
+  </header>
+
+  <main class="main-content" id="dynamic-content">
+    <!-- Full Privacy Policy content will be injected here -->
+  </main>
+
+  <footer class="site-footer" style="background: #1f1f1f; color: #cbcbcb; padding: 2rem 2rem 1.8rem; border-top: 2px solid #f5c542; font-size: 0.9rem;">
+    <div class="footer-inner" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 1.5rem;">
+      <div class="footer-contact">
+        <p>📍 <strong>Acorn Kitchen Studio</strong><br> 42 Hazel Lane, Culinary District,<br> Portland, OR 97204, USA</p>
+        <p>📞 +1 (503) 882-1946  |  ✉️ hello@acornrecipediary.com</p>
+      </div>
+      <div class="footer-note">
+        <p>🍽️ Grey mornings · Yellow warmth — every recipe tells a story.</p>
+      </div>
+    </div>
+    <div class="copyright" style="text-align: center; margin-top: 1.8rem; font-size: 0.75rem; color: #8f8f8f;">
+      © 2025 Acorn Recipe Diary — handmade recipe journal. All original content. | Last updated: May 2026
+    </div>
+  </footer>
+</div>
+
+<script>
+  // Privacy Policy page — complete, thorough, legally inspired text for a food/recipe diary
+  // Incorporates transparency, GDPR/CCPA-like principles, and a warm grey+yellow tone.
+  function getPrivacyPolicyHTML() {
+    return `
+      <div class="privacy-hero">
+        <h2>🔒 Privacy & Golden Trust</h2>
+        <p>Your personal data is like a treasured family recipe — handled with respect, stored safely, and never shared without your consent. At Acorn Recipe Diary (grey + yellow studio), we believe in radical warmth: transparency, simplicity, and integrity. This policy explains how we collect, use, and protect your information.</p>
+      </div>
+
+      <div class="policy-container">
+        <div class="policy-section">
+          <h3><span></span> 1. Who we are & our promise</h3>
+          <p><strong>Acorn Recipe Diary</strong> (referred to as "we", "us", or "our") is a small independent recipe journal and kitchen studio based in Portland, Oregon. Our website address is <strong>www.acornrecipediary.com</strong> (and associated subdomains). We are committed to protecting your privacy and handling your data in an open, fair, and warm manner — just like sharing a slice of golden lemon cake with a friend. This Privacy Policy applies to all interactions, including contact forms, newsletter signups, recipe submissions, and any other communications.</p>
+          <div class="highlight-box">
+            🌻 <strong>Our core values:</strong> No shady data selling, minimal data collection, full right to access or delete your information, and a human-led approach to every request. We never use your personal stories for automated advertising.
+          </div>
+        </div>
+
+        <div class="policy-section">
+          <h3><span></span> 2. Information we collect</h3>
+          <p>We collect only the information that helps us connect with you meaningfully and improve our grey-yellow universe. Here’s a clear breakdown:</p>
+          <table class="data-table">
+            <thead>
+              <tr><th>Category</th><th>Examples</th><th>Legal basis (GDPR/CCPA)</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>📝 Contact & Identity</td><td>Name, email address, postal address (if shared), social media handle (optional)</td><td>Consent / Legitimate interest (replying to messages)</td></tr>
+              <tr><td>🍂 Recipe Submissions</td><td>Recipe texts, images, personal anecdotes, kitchen stories</td><td>Consent (you voluntarily share)</td></tr>
+              <tr><td>📊 Technical Data</td><td>IP address, browser type, approximate geolocation (city level), referral source</td><td>Legitimate interest (analytics, security)</td></tr>
+              <tr><td>📧 Communication Data</td><td>Messages via contact form, email correspondence, newsletter engagement</td><td>Consent / performance of a request</td></tr>
+            </tbody>
+          </table>
+          <p><span class="badge">Important</span> We <strong>do not</strong> collect sensitive data (health, political beliefs, precise GPS). We also never sell or rent your personal information to third parties — ever.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3><span></span> 3. How we use your information</h3>
+          <p>Every crumb of data serves a clear purpose, always aligned with the spirit of our kitchen diary:</p>
+          <ul>
+            <li>✨ <strong>Respond to your inquiries</strong> – When you fill out our contact form or send an email, we reply with warmth and personalized answers (and maybe a recipe sketch).</li>
+            <li>📖 <strong>Improve our content</strong> – Aggregate analytics help us see which recipes or journal entries resonate most (grey mornings vs. golden feasts).</li>
+            <li>🍁 <strong>Send occasional updates</strong> – Only if you opt-in to our "Yellow Letter" newsletter. You can unsubscribe anytime with one click.</li>
+            <li>🌿 <strong>Recipe collaborations & features</strong> – If you submit a recipe and give permission, we may feature it (with full credit) in our diary or social media.</li>
+            <li>⚖️ <strong>Legal compliance & security</strong> – To prevent fraud, maintain website safety, and comply with applicable laws.</li>
+          </ul>
+          <div class="highlight-box">
+            📬 <strong>Your beautiful stories:</strong> Any personal anecdotes or handwritten notes you share remain your intellectual property, and we will always seek explicit consent before publishing any part beyond the contact purpose.
+          </div>
+        </div>
+
+        <div class="policy-section">
+          <h3><span></span> 4. Cookies & tracking technologies</h3>
+          <p>Our website uses essential and functional cookies (like remembering your preferences) and minimal analytics cookies via a privacy-friendly tool (no cross-site tracking). We do not use invasive advertising cookies. You can adjust cookie preferences at any time through our cookie banner or browser settings. For full details, please see our separate <a href="#" data-page="cookies" style="color:#b07d1f; text-decoration:underline;">Cookies Policy</a> — but in short, we bake only the tastiest, most transparent digital crumbs.</p>
+          <p><strong>Current cookies on acornrecipediary.com:</strong> session cookie (necessary), preference cookie (grey/yellow theme), and aggregated analytics via Plausible (no personal data).</p>
+        </div>
+
+        <div class="policy-section">
+          <h3><span></span> 5. Data sharing & third parties</h3>
+          <p>We never sell your personal information. However, we use limited third-party services to operate our diary:</p>
+          <ul>
+            <li>🔧 <strong>Hosting & email</strong> – Secure servers (US-based) with encryption. Our email provider processes messages solely to deliver them to us.</li>
+            <li>📨 <strong>Newsletter platform</strong> – If you join our mailing list, we use a GDPR-compliant service (MailerLite / Flodesk) that stores your name and email only for that purpose.</li>
+            <li>💬 <strong>Support tools</strong> – Occasionally we use private helpdesk software to manage queries. In all cases, data processors sign data protection agreements.</li>
+          </ul>
+          <p>We require all third parties to respect the security of your data and treat it in accordance with the law. We do not allow them to use your data for their own purposes.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3><span></span> 6. Data retention & security</h3>
+          <p>We keep your information only as long as necessary to fulfill the purposes outlined in this policy, unless a longer retention period is required by law. For contact form inquiries, we keep correspondence for up to 24 months for continuity (e.g., if you ask a follow-up recipe question). You can ask us to delete your records at any time.</p>
+          <p><strong>Security measures:</strong> We implement SSL encryption, strong password policies, regular updates, and restricted access to personal data. Although no internet transmission is 100% secure, we take every reasonable precaution to protect your information from loss, misuse, or alteration. Our team members receive annual privacy training — because trust is the secret ingredient.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3><span></span> 7. Your rights (GDPR, CCPA & global)</h3>
+          <p>Depending on your location, you may have the following rights regarding your personal data. We are committed to honoring them fully and without unnecessary delay:</p>
+          <ul>
+            <li>🔍 <strong>Right to access</strong> – Request a copy of the personal data we hold about you.</li>
+            <li>✏️ <strong>Right to rectification</strong> – Correct inaccurate or incomplete data.</li>
+            <li>🗑️ <strong>Right to erasure ("right to be forgotten")</strong> – Ask us to delete your data, subject to certain legal exceptions.</li>
+            <li>🚫 <strong>Right to restrict processing</strong> – Limit how we use your data.</li>
+            <li>📦 <strong>Right to data portability</strong> – Receive your data in a structured, commonly used format.</li>
+            <li>❌ <strong>Right to object</strong> – Object to processing based on legitimate interests or direct marketing.</li>
+          </ul>
+          <p>To exercise any of these rights, please <strong>contact our Data Protection “Kitchen Guardian”</strong> at <a href="mailto:privacy@acornrecipediary.com" style="color:#b07d1f;">privacy@acornrecipediary.com</a> or via our <a href="#" data-page="contact">contact form</a>. We will respond within 30 days (usually sooner, with a cup of kindness).</p>
+        </div>
+
+        <div class="policy-section">
+          <h3><span></span> 8. Children's privacy</h3>
+          <p>Acorn Recipe Diary is intended for general audiences and does not knowingly collect personal information from children under 13 (or under 16 in certain jurisdictions). If you are a parent or guardian and believe your child has provided us with personal data, please contact us immediately, and we will delete that information. Our recipes and stories are family-friendly, but we respect additional privacy protections.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3><span></span> 9. International data transfers</h3>
+          <p>Our studio is based in the United States. If you are accessing our website from outside the US, please be aware that your information may be transferred to, stored, and processed in the US where our servers and central database operate. Data protection laws may differ, but we take steps to ensure adequate safeguards (e.g., standard contractual clauses) and respect your rights regardless of location. By using our site, you consent to this transfer.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3><span></span> 10. Changes to this Privacy Policy</h3>
+          <p>We may update this policy occasionally to reflect changes in our practices or legal requirements. The "Last updated" date at the top of this page indicates when the latest version was published. If we make material changes, we will provide a clear notice on our website or via email (for subscribers). We encourage you to review this policy periodically — and we promise never to use policy updates to reduce your privacy rights.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3><span></span> 11. Contact our Grey-Yellow Guardian</h3>
+          <p>If you have any questions, concerns, or just want to send a note about data privacy (or acorn harvesting laws — we’re curious), please reach out:</p>
+          <p><strong>📧 Email:</strong> privacy@acornrecipediary.com <br>
+          <strong>📮 Postal:</strong> Acorn Recipe Diary — Privacy, 42 Hazel Lane, Portland, OR 97204, USA <br>
+          <strong>🌐 Online form:</strong> Use the <a href="#" data-page="contact" style="color:#b07d1f;">contact page</a> and mention "Privacy Inquiry".</p>
+          <p>We aim to resolve any privacy complaints with empathy and promptness. For EU residents, you have the right to lodge a complaint with your local Data Protection Authority, though we hope to solve any concerns directly first.</p>
+          <div class="signature">
+            🌾 <strong>Signed with golden ink,</strong><br>
+            Iris Hazelwood — Founder & Keeper of the Acorn Diary<br>
+            “Privacy is not a loophole, it’s a harvest we protect.”
+          </div>
+        </div>
+
+        <div style="margin-top: 1.5rem; background: #fcf5e6; border-radius: 24px; padding: 1rem 1.5rem; font-size: 0.85rem;">
+          <p>⭐ <strong>Summary for quick readers:</strong> We collect only what’s needed to reply to your messages and improve the diary. No selling data, no creepy ads. You can ask us to delete everything anytime. Cookies are minimal and privacy-focused. For full transparency, our Privacy Policy reflects real love for your rights.</p>
+        </div>
+      </div>
+    `;
+  }
+
+  // Helper to set active navigation
+  function setActiveNav(pageId) {
+    const links = document.querySelectorAll('.nav-links a');
+    links.forEach(link => {
+      const pageAttr = link.getAttribute('data-page');
+      if (pageAttr === pageId) {
+        link.classList.add('active');
+      } else {
+        link.classList.remove('active');
+      }
+    });
+  }
+
+  // Render privacy policy into dynamic content area
+  const contentDiv = document.getElementById('dynamic-content');
+  function renderPrivacyPage() {
+    if (contentDiv) {
+      contentDiv.innerHTML = getPrivacyPolicyHTML();
+      // re-attach internal navigation links within the privacy content (cookies, contact etc) to keep SPA-like behavior
+      attachInternalNavHandlers();
+    }
+  }
+
+  // For links inside the privacy policy that point to other pages (like Cookies, Contact)
+  function attachInternalNavHandlers() {
+    // Select all links with data-page attribute inside the policy container
+    const internalLinks = document.querySelectorAll('#dynamic-content a[data-page]');
+    internalLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetPage = link.getAttribute('data-page');
+        if (targetPage === 'cookies') {
+          renderCookiesPage();
+          setActiveNav('cookies');
+        } else if (targetPage === 'contact') {
+          renderContactPage();
+          setActiveNav('contact');
+        } else if (targetPage === 'privacy') {
+          renderPrivacyPage();
+          setActiveNav('privacy');
+        } else if (targetPage === 'terms') {
+          renderTermsPage();
+          setActiveNav('terms');
+        } else if (targetPage === 'index') {
+          renderHomePlaceholder();
+          setActiveNav('index');
+        } else if (targetPage === 'about') {
+          renderAboutPlaceholder();
+          setActiveNav('about');
+        }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+  }
+
+  // Placeholder render functions for other pages (so whole site navigates nicely)
+  function renderHomePlaceholder() {
+    contentDiv.innerHTML = `<div class="privacy-hero"><h2>🍂 Acorn Recipe Diary — Home</h2><p>You are currently exploring our complete Privacy Policy page. Our full recipe collection, grey-yellow musings, and seasonal stories contain over 58k words of original content. For any recipe needs, please navigate back to the contact page or main journal. This is a warm corner dedicated to transparency and trust.</p><a href="#" data-page="privacy" style="display:inline-block; margin-top:1rem; background:#f5c542; padding:0.5rem 1.2rem; border-radius:40px; text-decoration:none; color:#2b2b2b;">← Back to Privacy Policy</a></div>`;
+    attachInternalNavHandlers();
+  }
+  function renderAboutPlaceholder() {
+    contentDiv.innerHTML = `<div class="privacy-hero"><h2>📖 About the Grey & Yellow Studio</h2><p>Founded in 2021 by Iris Hazelwood, Acorn Recipe Diary is a love letter to slow cooking, seasonal ingredients, and handwritten storytelling. Our privacy values mirror our kitchen philosophy: respect, integrity, and warmth. To return to the Privacy Policy, click below.</p><a href="#" data-page="privacy" style="background:#f5c542; padding:0.5rem 1.2rem; border-radius:40px; text-decoration:none; color:#2b2b2b; display:inline-block;">← Privacy Policy</a></div>`;
+    attachInternalNavHandlers();
+  }
+  function renderTermsPage() {
+    contentDiv.innerHTML = `<div class="privacy-hero"><h2>⚖️ Terms Of Use</h2><p>Our terms emphasize respect for original recipes, copyrights, and positive community engagement. This is a summary — the full terms are available upon request, but our Privacy Policy remains the cornerstone of data handling. <a href="#" data-page="privacy" style="color:#b07d1f;">Return to Privacy Policy</a></p></div>`;
+    attachInternalNavHandlers();
+  }
+  function renderCookiesPage() {
+    contentDiv.innerHTML = `<div class="privacy-hero"><h2>🍪 Cookies Policy</h2><p>We use only essential and functional cookies that respect your privacy. No tracking for ads, no third-party targeting. For full details on data processing, please view our <a href="#" data-page="privacy" style="color:#b07d1f;">Privacy Policy</a>.</p><a href="#" data-page="privacy" style="background:#f5c542; padding:0.5rem 1.2rem; border-radius:40px; text-decoration:none; color:#2b2b2b; display:inline-block;">← Back to Privacy</a></div>`;
+    attachInternalNavHandlers();
+  }
+  function renderContactPage() {
+    contentDiv.innerHTML = `<div class="privacy-hero"><h2>✉️ Contact Us</h2><p>Have a privacy question or want to exercise your data rights? Reach out to privacy@acornrecipediary.com or use our form. Meanwhile, <a href="#" data-page="privacy" style="color:#b07d1f;">click here to return to the detailed Privacy Policy</a>.</p></div>`;
+    attachInternalNavHandlers();
+  }
+
+  // main navigation links binding
+  const navLinks = document.querySelectorAll('.nav-links a');
+  navLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const page = link.getAttribute('data-page');
+      if (page === 'privacy') {
+        renderPrivacyPage();
+        setActiveNav('privacy');
+      } else if (page === 'cookies') {
+        renderCookiesPage();
+        setActiveNav('cookies');
+      } else if (page === 'terms') {
+        renderTermsPage();
+        setActiveNav('terms');
+      } else if (page === 'contact') {
+        renderContactPage();
+        setActiveNav('contact');
+      } else if (page === 'index') {
+        renderHomePlaceholder();
+        setActiveNav('index');
+      } else if (page === 'about') {
+        renderAboutPlaceholder();
+        setActiveNav('about');
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+
+  // initial render: Privacy Policy page
+  renderPrivacyPage();
+  setActiveNav('privacy');
+</script>
+</body>
+</html>
